@@ -38,7 +38,7 @@ int main(int argc, char** argv) {
 	cin>>x>>y>>z;
 	Aluno alunoUm(x, y, z);
 	alunoUm.imprimirDados();
-	Aluno alunoDois;
+	Aluno alunoDois; // quando não tiver parametro, nao colocar ()
 	alunoDois.imprimirDados();
 	
 	return 0;
